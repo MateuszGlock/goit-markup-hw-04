@@ -523,6 +523,9 @@ body {
 .social-link-footer a svg {
   fill: var(--footer-background);
 }
+.social-link-footer a:hover {
+  fill: var(--link-color);
+}
 .social-links-ender-text {
   color: var(--header-background);
   font-style: normal;
