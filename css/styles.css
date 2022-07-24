@@ -14,6 +14,7 @@
   --team-section-background: #f5f4fa;
   --order-button-background: #f5f4fa;
   --hover-button-background: #2196f3;
+  --icon-color: #afb1b8;
 }
 body {
   font-family: "Roboto", "Arial", sans-serif;
@@ -408,7 +409,7 @@ body {
 }
 
 .social-link a svg {
-  fill: var(--link-color);
+  fill: var(--icon-color);
 }
 .clients-section {
   align-items: center;
@@ -435,11 +436,16 @@ body {
   gap: 30px;
 }
 .client {
-  border: 1px solid var(--icon-border);
+  border: 1px solid var(--icon-color);
   border-radius: 4px;
   width: 170px;
   height: 92px;
-  fill: var(--icon-border);
+  fill: var(--icon-color);
+}
+.client:hover,
+.client:focus {
+  border: 1px solid var(--link-color);
+  fill: var(--link-color);
 }
 .ender {
   background-color: var(--footer-background);
