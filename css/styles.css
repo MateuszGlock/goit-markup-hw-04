@@ -388,7 +388,7 @@ body {
 }
 .social-link:hover,
 .social-link:focus {
-  fill: var(--blue-color);
+  fill: var(--hover-button-background);
 }
 .social-link a {
   display: flex;
