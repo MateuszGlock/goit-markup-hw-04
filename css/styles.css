@@ -409,7 +409,10 @@ body {
 }
 
 .social-link a svg {
-  fill: var(--icon-color);
+  fill: var(--header-background);
+}
+.social-link a svg:hover {
+  fill: var(--link-color);
 }
 .clients-section {
   align-items: center;
