@@ -541,10 +541,10 @@ body {
 .social-links-ender {
   margin-left: 70px;
 }
-.social-link-footer a svg {
-  fill: var(--footer-background);
+.social-link-footer {
+  fill: rgba(255, 255, 255, 0.1);
 }
-.social-link-footer a:hover {
+.social-link-footer:hover {
   fill: var(--link-color);
 }
 .social-links-ender-text {
