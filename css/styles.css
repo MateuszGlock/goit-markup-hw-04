@@ -408,7 +408,7 @@ body {
 }
 
 .social-link a svg {
-  fill: var(--header-contact-color);
+  fill: var(--link-color);
 }
 .clients-section {
   align-items: center;
