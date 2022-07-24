@@ -392,7 +392,6 @@ body {
 }
 .social-link a {
   display: flex;
-  padding: 15px;
   border-radius: 50%;
 }
 
