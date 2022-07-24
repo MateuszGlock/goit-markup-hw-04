@@ -165,6 +165,14 @@ body {
   display: block;
   align-items: center;
   background: var(--central-section-background);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/main-section-background.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
   padding-top: 200px;
   padding-bottom: 210px;
   display: flex;
@@ -184,7 +192,7 @@ body {
   font-style: normal;
   border-radius: 4px;
 
-  color: var(--central-background);
+  color: var(--header-background);
   background: var(--hover-button-background);
   font-style: normal;
   font-size: 16px;
@@ -414,6 +422,10 @@ body {
 .social-link a svg:hover {
   fill: var(--link-color);
 }
+.icon:hover > a {
+  color: #2196f3;
+  fill: #2196f3;
+}
 .clients-section {
   align-items: center;
   justify-content: center;
@@ -600,6 +612,8 @@ body {
   background-color: var(--hover-button-background);
   color: var(--primary-text-color);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-text {
   width: 49px;
@@ -716,6 +730,10 @@ body {
   border: 1px solid #eeeeee;
   margin: 0 auto;
   padding-bottom: 20px;
+}
+.portfolio-photo-box:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .photo-tittle-text {
