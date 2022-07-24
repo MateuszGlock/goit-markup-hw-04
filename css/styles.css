@@ -408,7 +408,7 @@ body {
 }
 
 .social-link a svg {
-  fill: #afb1b8;
+  fill: white;
 }
 .clients-section {
   align-items: center;
@@ -519,6 +519,9 @@ body {
 }
 .social-links-ender {
   margin-left: 70px;
+}
+.social-link-footer a svg {
+  fill: var(--footer-background);
 }
 .social-links-ender-text {
   color: var(--header-background);
