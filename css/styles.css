@@ -130,6 +130,10 @@ body {
   color: black;
   fill: #757575;
 }
+.icon:hover > a {
+  color: #2196f3;
+  fill: #2196f3;
+}
 .icon-inside {
   padding-right: 10px;
 }
