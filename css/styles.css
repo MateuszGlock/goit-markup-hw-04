@@ -399,7 +399,12 @@ body {
   gap: 10px;
   justify-content: center;
 }
-.social-link:hover,
+
+.social-link a:hover {
+  background: #2196f3;
+}
+
+/*.social-link:hover,
 .social-link:focus {
   fill: var(--hover-button-background);
 }
@@ -421,7 +426,7 @@ body {
 }
 .social-link a svg:hover {
   fill: var(--link-color);
-}
+}*/
 .icon:hover > a {
   color: #2196f3;
   fill: #2196f3;
