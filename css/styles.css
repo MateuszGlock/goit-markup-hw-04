@@ -410,14 +410,17 @@ body {
 
 .social-link a:hover {
   background: #2196f3;
-  border-radius: 50%;
 }
 
 .social-link a:hover svg {
   fill: white;
 }
+
 .social-link a svg {
-  fill: var(--icon-color);
+  fill: var(--header-background);
+}
+.social-link a svg:hover {
+  fill: var(--link-color);
 }
 .icon:hover > a {
   color: #2196f3;
