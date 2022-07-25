@@ -399,9 +399,20 @@ body {
   gap: 10px;
   justify-content: center;
 }
+.social-link {
+  display: flex;
+  border-radius: 50%;
+}
 
 .social-link a:hover {
-  background: #2196f3;
+  fill: white;
+  background: var(--hover-button-background);
+}
+.social-link a {
+  display: flex;
+  border-radius: 50%;
+  padding: 11px;
+  fill: var(--icon-color);
 }
 
 /*.social-link:hover,
