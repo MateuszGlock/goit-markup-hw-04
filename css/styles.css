@@ -406,14 +406,22 @@ body {
 .social-link a {
   display: flex;
   border-radius: 50%;
-  padding: 15px;
 }
 
-.social-link:hover {
-  fill: white;
+.social-link a:hover {
   background: #2196f3;
 }
 
+.social-link a:hover svg {
+  fill: white;
+}
+
+.social-link a svg {
+  fill: var(--header-background);
+}
+.social-link a svg:hover {
+  fill: var(--link-color);
+}
 .icon:hover > a {
   color: #2196f3;
   fill: #2196f3;
@@ -536,7 +544,7 @@ body {
 .social-link-footer {
   fill: rgba(255, 255, 255, 0.1);
 }
-.social-link-footer:hover {
+.social-link-footer a:hover {
   fill: var(--link-color);
 }
 .social-links-ender-text {
@@ -552,6 +560,7 @@ body {
   list-style: none;
   padding: 0px;
   gap: 10px;
+  margin-left: -10px;
 }
 .portfolio-part {
   background-color: var(--central-background);
