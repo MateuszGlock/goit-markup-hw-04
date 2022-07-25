@@ -406,6 +406,7 @@ body {
 .social-link a {
   display: flex;
   border-radius: 50%;
+  padding: 15px;
 }
 
 .social-link a:hover {
@@ -560,7 +561,6 @@ body {
   list-style: none;
   padding: 0px;
   gap: 10px;
-  margin-left: -10px;
 }
 .portfolio-part {
   background-color: var(--central-background);
