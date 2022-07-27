@@ -111,7 +111,7 @@ body {
 .contact-list {
   display: flex;
   margin: 0px;
-  margin-left: 371px;
+  margin-left: 345px;
   align-items: center;
   list-style: none;
   padding: 0px;
@@ -135,6 +135,7 @@ body {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
+  padding-top: 2px;
 }
 .icon {
   display: flex;
