@@ -142,6 +142,7 @@ body {
 }
 .icon-phone {
   align-items: center;
+  padding-top: 2px;
 }
 .header-phone {
   width: 110px;
