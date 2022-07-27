@@ -111,13 +111,11 @@ body {
 .contact-list {
   display: flex;
   margin-left: 371px;
-  margin-top: 32px;
+  align-items: center;
   list-style: none;
   padding: 0px;
 }
 .header-mail {
-  width: 135px;
-
   font-style: normal;
   font-size: 14px;
   line-height: 1;
@@ -128,7 +126,6 @@ body {
 }
 .icon {
   display: flex;
-  color: black;
   fill: #757575;
 }
 .icon:hover > a {
