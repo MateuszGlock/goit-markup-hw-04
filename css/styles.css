@@ -110,19 +110,28 @@ body {
 }
 .contact-list {
   display: flex;
+  margin: 0px;
   margin-left: 371px;
   align-items: center;
   list-style: none;
   padding: 0px;
 }
+.text-icon {
+  display: flex;
+}
 .header-mail {
+  margin: 0px;
   font-style: normal;
   font-size: 14px;
-  line-height: 1;
   letter-spacing: 0.02em;
 
   color: var(--header-contact-color);
   text-decoration: none;
+
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .icon {
   display: flex;
