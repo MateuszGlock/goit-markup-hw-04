@@ -127,6 +127,7 @@ body {
 .icon {
   display: flex;
   fill: #757575;
+  align-items: center;
 }
 .icon:hover > a {
   color: #2196f3;
@@ -134,6 +135,7 @@ body {
 }
 .icon-inside {
   padding-right: 10px;
+  align-items: center;
 }
 .icon-phone {
   margin-left: 30px;
