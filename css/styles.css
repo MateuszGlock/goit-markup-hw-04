@@ -169,6 +169,7 @@ body {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
+  padding-top: 3px;
 }
 .central {
   background: var(--header-background);
