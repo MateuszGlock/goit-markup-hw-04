@@ -119,6 +119,10 @@ body {
 .text-icon {
   display: flex;
 }
+.text-icon:hover {
+  color: #2196f3;
+  fill: #2196f3;
+}
 .header-mail {
   margin: 0px;
   font-style: normal;
@@ -126,7 +130,6 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--header-contact-color);
-  text-decoration: none;
 
   font-family: "Roboto";
   font-weight: 500;
@@ -154,14 +157,17 @@ body {
   padding-top: 2px;
 }
 .header-phone {
-  width: 110px;
+  margin: 0px;
   font-style: normal;
   font-size: 14px;
-  line-height: 1;
   letter-spacing: 0.02em;
 
   color: var(--header-contact-color);
-  text-decoration: none;
+
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .central {
   background: var(--header-background);
