@@ -155,7 +155,6 @@ body {
 }
 .icon-phone {
   align-items: center;
-  padding-top: 2px;
 }
 .header-phone {
   margin: 0px;
@@ -169,7 +168,7 @@ body {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
-  padding-top: 3px;
+  padding-top: 5px;
 }
 .central {
   background: var(--header-background);
